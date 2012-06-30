@@ -3,44 +3,19 @@
     <head>
     <title>Holden Web: What do you want to know today?</title>
     <meta charset="utf-8"/>
-    <!-- <meta name="viewport" content="width=device-width,inital-scale=1" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
-    <style>
-        body{font:62.5% arial, helvetica, sans-serif;margin:0}
-        .pageheader{font-size:1.4em;background-color:#f6f6ef;padding:0 2em;height:10em;border-bottom:1px solid #eae7d1}
-        .pageheader h1{margin:0;position:relative;top:1em}
-        .pageheader h1 a{background:transparent url(images/logo.png) no-repeat left top;display:block;text-indent:-9999em;height:225px;width:207px}
-        .tagline{font-size:2em;font-weight:bold;color:rgba(0,0,0,.2);
-            font-family:'Comfortaa',sans-serif;position:absolute;top:31px;right:100px;
-            margin:0;padding-right:2em;text-shadow:2px 2px 3px rgba(0,0,0,.1)}
-        .content{font-size:1.3em;background-color:#fff;padding:0 2em}
-        .pagenav{position:absolute;top:8em;right:5em}
-        .pagenav a{font-size:1.0714em;color:#4646e9;font-weight:bold;text-transform:uppercase;text-decoration:none;text-shadow:1px 1px 2px rgba(0,0,0,.2)}
-        .pagenav a:hover{text-decoration:underline}
-        .pagenav ul{list-style-type:none;padding:0;margin:0}
-        .pagenav ul li{display:inline;margin-right:1em}
-        footer{font-size:1.3em;clear:both;background-color:#6969e9;padding:.5em 2em;border-top:1px solid #3f3fcc}
-        .bluebar,footer{background-image:-moz-linear-gradient(center bottom , #3f3fcc 0%, #8282f1 100%)}
-        .bluebar{height:20px}
-        footer *{color:#fff}
-        footer h1{font-size:1.4em}
-        footer h1,footer p{margin:5px 0}
-        .col{padding:1em 0}
-        .secondary{line-height:1.6;float:left;width:30%;overflow:hidden;padding-top:11em}
-        .primary{font:1.1538em/1.6 Georgia, serif;float:right;width:60%;overflow:hidden;margin:2em 0 3em;padding-right:4em}
-        .shadow{box-shadow:1px 1px 2px rgba(0,0,0,.2)}
-        .footnav ul{list-style-type:none;position:absolute;top:-6em;left:27em}
-        .footnav{position:relative}
-    </style>
+
     </head>
     <body>
         <div class="bluebar"> </div>
         <header class="pageheader shadow">
-            <div class="tagline">What do you want to know today?</div>
+            <div class="tagline">What you'll need to know tomorrow</div>
             <h1><a href="/">Holden Web</a></h1>
             <nav class="pagenav">
                 <ul class="inline_list">
@@ -48,14 +23,21 @@
                     <li><a href="#">Partners</a></li>
                     <li><a href="#">Open Source</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="http://holdenweb.blogspot.com/">Blog</a></li>
                 </ul>   
             </nav>
         </header>
         <div class="content">
             <section class="secondary col">
-                <p>Holden Web provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. <a href="#">Please contact us now</a> for consulting, training, system design and development or other assistance.</p>
-                <p>We proudly support and promote open source technologies.</p>
+                <div class="hw">
+					<p>Holden Web provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. <a href="#">Please contact us now</a> for consulting, training, system design and development or other assistance.</p>
+					<p>We proudly support and promote open source technologies.</p>
+				</div>
+				<div class="tob">
+					<p><a href="http://theopenbastion.com">The Open Bastion</a>, a Holden Web subsidiary, produces open source events, training and conferences for an international audience.</p>
+
+					<p>The Open Bastion aims to help organizations that don't have the time or resources needed to organize quality events. We help produce both public, as well as private events. We'd love to help you produce your in-house technical event.  <a href="http://theopenbastion.com/">Find out more</a>.</p>
+				</div>
             </section>
             <section class="primary col">
                 <h1>Holden Web and Open Source</h1>
@@ -66,18 +48,23 @@
             </section>
         </div>
         <footer class="vcard shadow">
-            <h1>Holden Web, LLC</h1>
-            <p>Phone: <span class="tel">1.800.494.3119</span></p>
-            <p>Email: <a href='mailto:info@holdenweb.com' class="email">info@holdenweb.com</a></p>
-            <!--<nav class="footnav">
-                <ul class="inline_list">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Open Source</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>   
-            </nav>-->
+			<div class="secondary col">
+				<h1>Holden Web, LLC</h1>
+				<p>Phone: <span class="tel">1.800.494.3119</span></p>
+				<p>Email: <a href='mailto:info@holdenweb.com' class="email">info@holdenweb.com</a></p>
+			</div>
+			<div class="primary col">
+				<nav>
+					<ul class="inline_list">
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Open Source</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="http://holdenweb.blogspot.com/">Blog</a></li>
+					</ul>   
+				</nav>
+				<p><a href="http://theopenbastion.com/">The Open Bastion</a></p>
+			</div>
         </footer>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     </body>

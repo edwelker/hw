@@ -1,0 +1,30 @@
+body{font:62.5% arial, helvetica, sans-serif}
+.pageheader{font-size:1.4em;background-color:#f6f6ef;padding:0 2em;height:10em;border-bottom:1px solid #eae7d1}
+.pageheader h1{margin:0;position:relative;top:1em}
+.pageheader h1 a{background:transparent url(images/logo.png) no-repeat left top;display:block;text-indent:-9999em;height:225px;width:207px}
+.tagline{font-size:2em;font-weight:bold;color:rgba(0,0,0,.2);
+    font-family:"Gill Sans","Gill Sans MT","Trebuchet MS",sans-serif;position:absolute;top:65px;right:30px;
+    margin:0;padding-right:2em;text-shadow:2px 2px 3px rgba(0,0,0,.1)}
+.content{font-size:1.3em;background-color:#fff;padding:0 2em}
+.pagenav{position:absolute;top:8em;right:5em}
+.pagenav a{font-size:1.0714em;color:#4646e9;font-weight:bold;text-transform:uppercase;text-decoration:none;text-shadow:1px 1px 2px rgba(0,0,0,.2)}
+.pagenav a:hover{text-decoration:underline}
+ul.inline_list{list-style-type:none;padding:0;margin:0}
+ul.inline_list li{display:inline;margin-right:1em}
+footer{font-size:1.3em;clear:both;background-color:#6969e9;padding:.5em 2em;border-top:1px solid #092694;overflow:hidden;position:relative;top:2em}
+footer .primary{margin:0;padding-top:0;padding-bottom:0}
+footer .primary nav{margin-top:.5em}
+footer .primary p{margin-top:2.15em}
+footer .secondary{margin:0;padding:0}
+.bluebar,footer{background-image:-moz-linear-gradient(center bottom , #092694 0%, #5475ee 100%)}
+.bluebar{height:20px}
+footer *{color:#fff}
+footer h1{font-size:1.2em}
+footer h1,footer p{margin:5px 0}
+.col{padding:1em 0}
+.secondary{line-height:1.6;float:left;width:30%;overflow:hidden;padding-top:11em}
+.primary{font-size:1.0769em;line-height:1.6;float:right;width:60%;overflow:hidden;margin:2em 0 3em;padding-right:4em}
+.shadow{box-shadow:1px 1px 2px rgba(0,0,0,.2)}
+.footnav ul{list-style-type:none;position:absolute;top:-6em;left:27em}
+.footnav{position:relative}
+.hw{border-bottom:1px solid #eee}
