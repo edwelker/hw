@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>{{ flatpage.title }}</title>
+    <title>Holden Web: What do you want to know today?</title>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="/site_media/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="/site_media/styles.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <div class="bluebar"> </div>
+        <header class="pageheader shadow">
+            <div class="tagline">What you'll need to know tomorrow</div>
+            <h1><a href="/">Holden Web</a></h1>
+            <nav class="pagenav">
+                <ul class="inline_list">
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/partners/">Partners</a></li>
+                    <li><a href="/opensource/">Open Source</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="http://holdenweb.blogspot.com/">Blog</a></li>
+                </ul>   
+            </nav>
+        </header>
+        <div class="content">
+            <section class="secondary col">
+<!--                <div class="hw">
+					<p>Holden Web provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. <a href="#">Please contact us now</a> for consulting, training, system design and development or other assistance.</p>
+					<p>We proudly support and promote open source technologies.</p>
+				</div>
+				<div class="tob">
+					<p><a href="http://theopenbastion.com">The Open Bastion</a>, a Holden Web subsidiary, produces open source events, training and conferences for an international audience.</p>
+
+					<p>The Open Bastion aims to help organizations that don't have the time or resources needed to organize quality events. We help produce both public, as well as private events. We'd love to help you produce your in-house technical event.  <a href="http://theopenbastion.com/">Find out more</a>.</p>
+				</div> -->
+            </section>
+            <section class="primary col">
+            {{ flatpage.content }}
+            </section>
+        </div>
+        <footer class="vcard shadow">
+			<div class="secondary col">
+				<h1>Holden Web, LLC</h1>
+				<p>Phone: <span class="tel">1.800.494.3119</span></p>
+				<p>Email: <a href='mailto:info@holdenweb.com' class="email">info@holdenweb.com</a></p>
+			</div>
+			<div class="primary col">
+				<nav>
+					<ul class="inline_list">
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Open Source</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="http://holdenweb.blogspot.com/">Blog</a></li>
+					</ul>   
+				</nav>
+				<p><a href="http://theopenbastion.com/">The Open Bastion</a></p>
+			</div>
+        </footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </body>
+</html>
