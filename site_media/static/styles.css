@@ -1,16 +1,56 @@
-body{font:62.5% arial, helvetica, sans-serif}
+body{font:62.5% arial, helvetica, sans-serif;min-width:815px}
 .pageheader{font-size:1.4em;background-color:#f6f6ef;padding:0 2em;height:10em;border-bottom:1px solid #eae7d1}
-.pageheader h1{margin:0;position:relative;top:1em}
+.pageheader h1{margin:0;position:relative;top:1em;display:inline-block}
 .pageheader h1 a{background:transparent url(images/logo.png) no-repeat left top;display:block;text-indent:-9999em;height:225px;width:207px}
-.tagline{font-size:2em;font-weight:bold;color:rgba(0,0,0,.2);
-    font-family:"Gill Sans","Gill Sans MT","Trebuchet MS",sans-serif;position:absolute;top:65px;right:30px;
-    margin:0;padding-right:2em;text-shadow:2px 2px 3px rgba(0,0,0,.1)}
-.content{font-size:1.3em;background-color:#fff;padding:0 2em}
-.pagenav{position:absolute;top:8em;right:5em}
-.pagenav a{font-size:1.0714em;color:#4646e9;font-weight:bold;text-transform:uppercase;text-decoration:none;text-shadow:1px 1px 2px rgba(0,0,0,.2)}
-.pagenav a:hover{text-decoration:underline}
+
+/*logo flip*/
+.pageheader h1 a:hover{
+-webkit-transition-delay:.5s;
+-moz-transition-delay:.5s;
+-webkit-transform-style:preserve-3d;
+-webkit-transition: -webkit-transform 1.7s; 
+-webkit-transform:rotateX(360deg);
+-moz-transform:rotateX(360deg);
+-moz-transform-style:preserve-3d;
+-moz-transition-duration: 1.5s;
+}
+
+.tagline{font-size:2em;font-weight:bold;color:rgba(0,0,0,.1);
+    font-family:"Gill Sans","Gill Sans MT","Trebuchet MS",sans-serif;
+    text-shadow:1px 1px 3px rgba(0,0,0,.1);
+    margin:-6em 0 0 30%;
+    -moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;
+    }
+.tagline:hover{color:rgba(0,0,0,.4);text-shadow:3px 3px 4px rgba(0,0,0,.3);}
+h1,h2,h3,.h1,.h2,.h3,.inline{font-family:"Gill Sans","Gill Sans MT","Trebuchet MS",sans-serif;color:#444}
+.inline{font-weight:bold;font-size:18px}
+h1{margin:.5em 0 .25em}
+h2{margin:.6666em 0 .3333em}
+h3{font-size:16px;margin:7px 0 5px} 
+.content{font-size:1.3em;background-color:#fff;padding:0 2em;z-index:10}
+.content p{line-height:1.7142;margin:.5em 0}
+.content ul{list-style-position:outside;padding-left:1em;list-style-type:none}
+.pagenav{margin:.6em 0 0 30%}
+.pagenav a{font-size:1.0714em;color:#4646e9;font-weight:bold;text-transform:uppercase;text-decoration:none;text-shadow:1px 1px 2px rgba(0,0,0,.2);
+-moz-transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+}
+.pagenav a:hover{
+text-decoration:underline;
+/* just a little too much
+font-size:110%;
+-moz-transform:scale(2);
+-webkit-transform:scale(2);
+-moz-text-size-adjust: 120%;
+-webkit-text-size-adjust: 120%;*/
+}
 ul.inline_list{list-style-type:none;padding:0;margin:0}
 ul.inline_list li{display:inline;margin-right:1em}
+
+.col{padding:1em 0}
+.secondary{line-height:1.6;float:left;width:25%;overflow:hidden;padding-top:11em}
+.primary{font-size:1.0769em;line-height:1.6;width:60%;margin:2em 0 3em 30%;padding-right:4em;max-width:700px}
+
 footer{font-size:1.3em;clear:both;background-color:#6969e9;padding:.5em 2em;border-top:1px solid #092694;overflow:hidden;position:relative;top:2em}
 footer .primary{margin:0;padding-top:0;padding-bottom:0}
 footer .primary nav{margin-top:.5em}
@@ -35,10 +75,8 @@ background-image: -webkit-gradient(
 footer *{color:#fff}
 footer h1{font-size:1.2em}
 footer h1,footer p{margin:5px 0}
-.col{padding:1em 0}
-.secondary{line-height:1.6;float:left;width:30%;overflow:hidden;padding-top:11em}
-.primary{font-size:1.0769em;line-height:1.6;float:right;width:60%;overflow:hidden;margin:2em 0 3em;padding-right:4em}
 .shadow{box-shadow:1px 1px 2px rgba(0,0,0,.2)}
 .footnav ul{list-style-type:none;position:absolute;top:-6em;left:27em}
 .footnav{position:relative}
-.hw{border-bottom:1px solid #eee}
+.hw{border-bottom:1px solid #eee;padding-bottom:3em}
+.hw,.tob{margin:3em 0}
