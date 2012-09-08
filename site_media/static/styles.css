@@ -1,4 +1,4 @@
-body{font:62.5% arial, helvetica, sans-serif;min-width:815px}
+body{font:62.5% arial, helvetica, sans-serif;min-width:815px;background-color:#f6f6ef}
 .pageheader{font-size:1.4em;background-color:#f6f6ef;padding:0 2em;height:10em;border-bottom:1px solid #eae7d1}
 .pageheader h1{margin:0;position:relative;top:1em;display:inline-block}
 .pageheader h1 a{background:transparent url(images/logo.png) no-repeat left top;display:block;text-indent:-9999em;height:225px;width:207px}
@@ -21,9 +21,11 @@ body{font:62.5% arial, helvetica, sans-serif;min-width:815px}
     margin:-6em 0 0 30%;
     -moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;
     }
-.tagline:hover{color:rgba(0,0,0,.4);text-shadow:3px 3px 4px rgba(0,0,0,.3);}
+.tagline:hover{color:rgba(0,0,0,.2);text-shadow:3px 3px 4px rgba(0,0,0,.2);}
 h1,h2,h3,.h1,.h2,.h3,.inline{font-family:"Gill Sans","Gill Sans MT","Trebuchet MS",sans-serif;color:#444}
 .inline{font-weight:bold;font-size:18px}
+a.inline{color:#449}
+a.inline:hover{color:#66c}
 h1{margin:.5em 0 .25em}
 h2{margin:.6666em 0 .3333em}
 h3{font-size:16px;margin:7px 0 5px} 
@@ -49,14 +51,12 @@ ul.inline_list li{display:inline;margin-right:1em}
 
 .col{padding:1em 0}
 .secondary{line-height:1.6;float:left;width:25%;overflow:hidden;padding-top:11em}
-.primary{font-size:1.0769em;line-height:1.6;width:60%;margin:2em 0 3em 30%;padding-right:4em;max-width:700px}
+.primary{font-size:1.0769em;line-height:1.6;width:60%;margin-left:30%;max-width:700px;padding-bottom:3em}
 
-footer{font-size:1.3em;clear:both;background-color:#6969e9;padding:.5em 2em;border-top:1px solid #092694;overflow:hidden;position:relative;top:2em}
-footer .primary{margin:0;padding-top:0;padding-bottom:0}
+footer{font-size:1.3em;clear:both;background-color:#f6f6ef;padding:.5em 2em;border-top:1px solid #092694;height:14em}
+footer .primary{padding-top:0;padding-bottom:0}
 footer .primary nav{margin-top:.5em}
-footer .primary p{margin-top:2.15em}
-footer .secondary{margin:0;padding:0}
-.bluebar,footer{
+.bluebar{
 background-image: linear-gradient(bottom, #092794 0%, #5475EE 100%);
 background-image: -o-linear-gradient(bottom, #092794 0%, #5475EE 100%);
 background-image: -moz-linear-gradient(bottom, #092794 0%, #5475EE 100%);
@@ -72,9 +72,8 @@ background-image: -webkit-gradient(
 );
 }
 .bluebar{height:20px}
-footer *{color:#fff}
 footer h1{font-size:1.2em}
-footer h1,footer p{margin:5px 0}
+.email{margin-right:1em}
 .shadow{box-shadow:1px 1px 2px rgba(0,0,0,.2)}
 .footnav ul{list-style-type:none;position:absolute;top:-6em;left:27em}
 .footnav{position:relative}
