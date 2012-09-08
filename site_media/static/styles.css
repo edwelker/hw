@@ -16,7 +16,21 @@ footer .primary{margin:0;padding-top:0;padding-bottom:0}
 footer .primary nav{margin-top:.5em}
 footer .primary p{margin-top:2.15em}
 footer .secondary{margin:0;padding:0}
-.bluebar,footer{background-image:-moz-linear-gradient(center bottom , #092694 0%, #5475ee 100%)}
+.bluebar,footer{
+background-image: linear-gradient(bottom, #092794 0%, #5475EE 100%);
+background-image: -o-linear-gradient(bottom, #092794 0%, #5475EE 100%);
+background-image: -moz-linear-gradient(bottom, #092794 0%, #5475EE 100%);
+background-image: -webkit-linear-gradient(bottom, #092794 0%, #5475EE 100%);
+background-image: -ms-linear-gradient(bottom, #092794 0%, #5475EE 100%);
+
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #092794),
+    color-stop(1, #5475EE)
+);
+}
 .bluebar{height:20px}
 footer *{color:#fff}
 footer h1{font-size:1.2em}
