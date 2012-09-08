@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./manage.py dumpdata flatpages --format=xml --indent=2 > flatpages_fixture.xml

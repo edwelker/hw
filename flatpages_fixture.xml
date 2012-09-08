@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object pk="1" model="flatpages.flatpage">
+    <field type="CharField" name="url">/</field>
+    <field type="CharField" name="title">Homepage</field>
+    <field type="TextField" name="content">                &lt;div class="hw"&gt;
+					&lt;p&gt;Holden Web provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. &lt;a href="#"&gt;Please contact us now&lt;/a&gt; for consulting, training, system design and development or other assistance.&lt;/p&gt;
+					&lt;p&gt;We proudly support and promote open source technologies.&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class="tob"&gt;
+					&lt;p&gt;&lt;a href="http://theopenbastion.com"&gt;The Open Bastion&lt;/a&gt;, a Holden Web subsidiary, produces open source events, training and conferences for an international audience.&lt;/p&gt;
+
+					&lt;p&gt;The Open Bastion aims to help organizations that don't have the time or resources needed to organize quality events. We help produce both public, as well as private events. We'd love to help you produce your in-house technical event.  &lt;a href="http://theopenbastion.com/"&gt;Find out more&lt;/a&gt;.&lt;/p&gt;
+				&lt;/div&gt;</field>
+    <field type="BooleanField" name="enable_comments">False</field>
+    <field type="CharField" name="template_name"></field>
+    <field type="BooleanField" name="registration_required">False</field>
+    <field to="sites.site" name="sites" rel="ManyToManyRel"><object pk="1"></object></field>
+  </object>
+  <object pk="4" model="flatpages.flatpage">
+    <field type="CharField" name="url">/opensource/</field>
+    <field type="CharField" name="title">Open Source</field>
+    <field type="TextField" name="content">&lt;h1&gt;Open Source&lt;/h1&gt;
+
+&lt;p&gt;Open source is an increasingly ubiquitous component of the information architectures of all kinds of organisation. As large users come to realise they have to rely on open architectures to keep IT costs down, familiarity with the open source world will pay dividends to far-sighted investors.&lt;/p&gt;
+
+&lt;p&gt;At present open source developers and large-scale IT users are sizing each other up, looking for suitable ways to work together and both benefit. The advantages to commercial organisations should be obvious: they include access to high-quality software, a skilled and often responsive maintenance team and reduced costs of acquisition. Open source developers are frequently in need of various kinds of support: travel expenses to attend conferences and sprints, computer equipment and internet hosting are frequently mentioned, and many project web sites now allow you to make donations by credit card or PayPal.&lt;/p&gt;
+
+&lt;p&gt;Some open source projects dominate their product space. Apache is still the dominant web server, and Samba is probably the leading Unix-to-Windows file- and print-sharing solution. Several commentators have observed that the software product space is becoming a commodity market in areas like this, where applications are well-defined and relatively easy to standardise.&lt;/p&gt;
+
+&lt;p&gt;Open source projects will benefit from more commercial support, and Holden Web encourages all those involved in commercial IT to consider how they can provide such support.&lt;/p&gt;</field>
+    <field type="BooleanField" name="enable_comments">False</field>
+    <field type="CharField" name="template_name"></field>
+    <field type="BooleanField" name="registration_required">False</field>
+    <field to="sites.site" name="sites" rel="ManyToManyRel"><object pk="1"></object></field>
+  </object>
+  <object pk="3" model="flatpages.flatpage">
+    <field type="CharField" name="url">/partners/</field>
+    <field type="CharField" name="title">Partners</field>
+    <field type="TextField" name="content">
+&lt;h2&gt;Learning Tree International&lt;/h2&gt;
+
+&lt;p&gt;Steve Holden has been an instructor for Learning Tree since the early 1990s, teaching networking, security and commercial systems development topics. His extensive practical experience is invaluable iin imparting hands-on knowledge of a wide range of subjects.&lt;/p&gt;
+
+&lt;p&gt;Steve has taught almost 4,000 students across Europe and the USA, maintaining a GPA of almost 3.9. A list of the classes Steve currently teaches appears below.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.learningtree.com/courses/144.htm" rel="external"&gt;Linux Administration and Support: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/367.htm" rel="external"&gt;Hands-On Introduction to TCP/IP&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/382.htm" rel="external"&gt;Relational Database Design, Tools and Techniques: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/420.htm" rel="external"&gt;Securing Wireless Networks: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/433.htm" rel="external"&gt;UNIX and Linux Security: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/486.htm" rel="external"&gt;Implementing Web Security: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/536.htm" rel="external"&gt;Computer Forensics and Incident Response: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/537.htm" rel="external"&gt;Ethical Hacking and Countermeasures: Hands-On&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/589.htm" rel="external"&gt;Vulnerability Assessment: Protecting Your Organization&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://www.learningtree.com/courses/538.htm" rel="external"&gt;Sharepoint Technologies: A Comprehensive Hands-On Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Optimal Solutions Group&lt;/h2&gt;
+
+&lt;p&gt;Optimal Solutions Group, LLC offers rigorous, non-partisan public policy research and technical assistance to government agencies, corporations, non-profit organizations, and foundations from offices in Washington, DC and Baltimore, MD. Optimal is composed of four research centers:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Education Policy&lt;/li&gt;
+	&lt;li&gt;Health Policy&lt;/li&gt; 
+	&lt;li&gt;Housing, Economic Development and Transportation&lt;/li&gt; 
+	&lt;li&gt;Workforce Development and Social Policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Optimal and Holden Web are collaborating on a number of projects where web technologies can help Optimal clients to meet advanced needs for information collection, analysis and dissemination.&lt;/p&gt;
+</field>
+    <field type="BooleanField" name="enable_comments">False</field>
+    <field type="CharField" name="template_name"></field>
+    <field type="BooleanField" name="registration_required">False</field>
+    <field to="sites.site" name="sites" rel="ManyToManyRel"><object pk="1"></object></field>
+  </object>
+  <object pk="2" model="flatpages.flatpage">
+    <field type="CharField" name="url">/projects/</field>
+    <field type="CharField" name="title">Projects</field>
+    <field type="TextField" name="content">&lt;h1&gt;Projects&lt;/h1&gt;
+
+&lt;h2&gt;Approach&lt;/h2&gt;
+
+&lt;p&gt;Techologies deployed on projects have been determined by clients needs. Programming languages have included Python, Perl, Cold Fusion, JavaScript and VBScript. with databases such as Access, SQL Server 6.5 through 2000, and MySQL. We teach technology classes for Learning Tree International.&lt;/p&gt;
+
+&lt;p&gt;Our skill set spans a range of platforms, including both UNIX and Windows. We are based in the United States and the United Kingdom. Projects can have worldwide scope and make use of an international network of professional contacts.&lt;/p&gt;
+
+&lt;p&gt;We use web and Internet technologies to help people meet their information needs, and are always happy to discuss potential projects. Roles can vary from strategic consulting and design through programming team leadership to development programmer. Contact details are at the bottom of each page of this site.&lt;/p&gt;
+
+
+&lt;h2&gt;Project highlights&lt;/h2&gt;
+
+
+&lt;h3&gt;National Science Foundation&lt;/h3&gt;
+
+&lt;p&gt;In 1996 Steve Holden was the technical lead on a project to re-vamp the NSF's web site, applying a unified look and feel to a wide variety of information sources and making information easier to locate. Automatic content generation techniques allowed the NSF to rebuild the site quickly. A lot has changed since then, but the general flavor of the site is still the same.&lt;/p&gt;
+
+&lt;h3&gt;GlobalPhone Corporation&lt;/h3&gt;
+
+&lt;p&gt;A straightforward web site whose page structures are built by program from a common data structure, so links are updated everywhere as soon as the controlling data structure is changed.&lt;/p&gt;
+
+&lt;h3&gt;Web CallBack&lt;/h3&gt;
+
+&lt;p&gt;A database-driven site where people can sign up for service on-line and have their web sites making telephone calls in double-quick time. A lot of the system's administration is also web-based, though this is not visible through the site's public interface.&lt;/p&gt;
+
+&lt;h3&gt;Thomson Prometric&lt;/h3&gt;
+
+&lt;p&gt;Back in 1998 (before the ready availability of stylesheets), Prometric wanted a technology that let them separate content from look-and-feel. We delivered a system that let them update their update their site content by modifying a database through a private web interface, so they could add news items and respond immediately to changes. During development a complete revision of the site's look-and-feel was accomplished in a single day by changing just one file and modifying the attached graphics.&lt;/p&gt;
+</field>
+    <field type="BooleanField" name="enable_comments">False</field>
+    <field type="CharField" name="template_name"></field>
+    <field type="BooleanField" name="registration_required">False</field>
+    <field to="sites.site" name="sites" rel="ManyToManyRel"><object pk="1"></object></field>
+  </object>
+</django-objects>
