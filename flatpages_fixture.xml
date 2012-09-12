@@ -2,16 +2,53 @@
 <django-objects version="1.0">
   <object pk="1" model="flatpages.flatpage">
     <field type="CharField" name="url">/</field>
-    <field type="CharField" name="title">Homepage</field>
-    <field type="TextField" name="content">                &lt;div class="hw"&gt;
-					&lt;p&gt;Holden Web provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. &lt;a href="#"&gt;Please contact us now&lt;/a&gt; for consulting, training, system design and development or other assistance.&lt;/p&gt;
+    <field type="CharField" name="title">Home</field>
+    <field type="TextField" name="content">&lt;div class="hw"&gt;
+					&lt;p&gt;&lt;span class="inline"&gt;Holden Web&lt;/span&gt; provides the technical skills to help government and commercial customers build complex web-based systems to meet their information needs. &lt;a href="#"&gt;Please contact us now&lt;/a&gt; for consulting, training, system design and development or other assistance.&lt;/p&gt;
 					&lt;p&gt;We proudly support and promote open source technologies.&lt;/p&gt;
 				&lt;/div&gt;
 				&lt;div class="tob"&gt;
-					&lt;p&gt;&lt;a href="http://theopenbastion.com"&gt;The Open Bastion&lt;/a&gt;, a Holden Web subsidiary, produces open source events, training and conferences for an international audience.&lt;/p&gt;
+					&lt;p&gt;&lt;a href="http://theopenbastion.com" class="inline"&gt;The Open Bastion&lt;/a&gt;, a Holden Web subsidiary, produces open source events, training and conferences for an international audience.&lt;/p&gt;
 
 					&lt;p&gt;The Open Bastion aims to help organizations that don't have the time or resources needed to organize quality events. We help produce both public, as well as private events. We'd love to help you produce your in-house technical event.  &lt;a href="http://theopenbastion.com/"&gt;Find out more&lt;/a&gt;.&lt;/p&gt;
 				&lt;/div&gt;</field>
+    <field type="BooleanField" name="enable_comments">False</field>
+    <field type="CharField" name="template_name"></field>
+    <field type="BooleanField" name="registration_required">False</field>
+    <field to="sites.site" name="sites" rel="ManyToManyRel"><object pk="1"></object></field>
+  </object>
+  <object pk="5" model="flatpages.flatpage">
+    <field type="CharField" name="url">/about/</field>
+    <field type="CharField" name="title">About</field>
+    <field type="TextField" name="content">&lt;p&gt;Holden Web focuses on helping you to meet your information needs in a variety of ways.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Consulting&lt;/dt&gt;&lt;dd&gt;
+Whether you are looking to define a project architecture, determine an
+appropriate development methodology or implement a specific design we can help you. Our needs-based approach to consulting projects ensures that you meet your overall goal.&lt;/dt&gt;&lt;dd&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Teaching&lt;/dt&gt;&lt;dd&gt;
+We teach classes in networking technologies, network security and
+database design for Learning Tree International, and other classes independently. Please ask us to quote for your training needs.&lt;/dt&gt;&lt;dd&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Speaking&lt;/dt&gt;&lt;dd&gt;
+We can speak on a range of topics, with presentation styles suitable for either technical or managerial audiences. This can be a cost-effective way to investigate the feasibility of a new technology for your organization.&lt;/dt&gt;&lt;dd&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Advocacy&lt;/dt&gt;&lt;dd&gt;
+The open source world has a lot to offer commercial and governmental organizations bold enough to move away from the classical software purchase cycle, and we invest time in helping such organizations to investigate their options.&lt;/dt&gt;&lt;dd&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Many projects involve new and interesting technologies. Holden Web
+works with the latest technolgies, many of the emerging techniques
+involving open source software.&lt;/p&gt;
+ 
+&lt;p&gt;Operating system and application software choice is never a religious issue here: we evaluate the range of available products and use what is most appropriate for each project and most convenient to our customers. We work with all operating system platforms and a wide range of tools.&lt;/p&gt;
+ 
+ &lt;p&gt;&lt;a href="http://www.python.org/"&gt;Python&lt;/a&gt; is our open source agile programming language of choice. International contacts extend our skills base in multiple technologies including security, graphic and information design and application and network systems architectures. For web development we like work as a part of a team that uses graphic design skills of your existing design team to our proven technical abilities.&lt;/p&gt; 
+
+&lt;p&gt;Early in 2002 New Riders published Steve Holden's first book, &lt;i&gt;Python Web Programming&lt;/i&gt; (see below). In March 2003 Steve chaired the inaugural &lt;a href="http://www.python.org/pycon/"&gt;PyCon DC 2003&lt;/a&gt; Python Community Conference, at which he was delighted to meet many readers of this web site. He also chaired PyCon DC 2004 and 2005. Sometimes you will still find him on &lt;a href="news:comp.lang.python" title="look on your news server"&gt;comp.lang.python&lt;/a&gt;, the most useful newsgroup for the general Python user.&lt;/p&gt;
+</field>
     <field type="BooleanField" name="enable_comments">False</field>
     <field type="CharField" name="template_name"></field>
     <field type="BooleanField" name="registration_required">False</field>
@@ -37,7 +74,8 @@
   <object pk="3" model="flatpages.flatpage">
     <field type="CharField" name="url">/partners/</field>
     <field type="CharField" name="title">Partners</field>
-    <field type="TextField" name="content">
+    <field type="TextField" name="content">&lt;h1&gt;Partners&lt;/h1&gt;
+
 &lt;h2&gt;Learning Tree International&lt;/h2&gt;
 
 &lt;p&gt;Steve Holden has been an instructor for Learning Tree since the early 1990s, teaching networking, security and commercial systems development topics. His extensive practical experience is invaluable iin imparting hands-on knowledge of a wide range of subjects.&lt;/p&gt;
@@ -68,8 +106,7 @@
 	&lt;li&gt;Workforce Development and Social Policy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Optimal and Holden Web are collaborating on a number of projects where web technologies can help Optimal clients to meet advanced needs for information collection, analysis and dissemination.&lt;/p&gt;
-</field>
+&lt;p&gt;Optimal and Holden Web are collaborating on a number of projects where web technologies can help Optimal clients to meet advanced needs for information collection, analysis and dissemination.&lt;/p&gt;</field>
     <field type="BooleanField" name="enable_comments">False</field>
     <field type="CharField" name="template_name"></field>
     <field type="BooleanField" name="registration_required">False</field>
@@ -106,8 +143,7 @@
 
 &lt;h3&gt;Thomson Prometric&lt;/h3&gt;
 
-&lt;p&gt;Back in 1998 (before the ready availability of stylesheets), Prometric wanted a technology that let them separate content from look-and-feel. We delivered a system that let them update their update their site content by modifying a database through a private web interface, so they could add news items and respond immediately to changes. During development a complete revision of the site's look-and-feel was accomplished in a single day by changing just one file and modifying the attached graphics.&lt;/p&gt;
-</field>
+&lt;p&gt;Back in 1998 (before the ready availability of stylesheets), Prometric wanted a technology that let them separate content from look-and-feel. We delivered a system that let them update their update their site content by modifying a database through a private web interface, so they could add news items and respond immediately to changes. During development a complete revision of the site's look-and-feel was accomplished in a single day by changing just one file and modifying the attached graphics.&lt;/p&gt;</field>
     <field type="BooleanField" name="enable_comments">False</field>
     <field type="CharField" name="template_name"></field>
     <field type="BooleanField" name="registration_required">False</field>
